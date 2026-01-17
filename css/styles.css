@@ -1,0 +1,239 @@
+*{
+   box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+        color: #434455;
+}
+/* #region header */
+.page-header{
+}
+
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.header-logo{
+}
+.accent{
+    color: #4D5AE5;
+}
+
+.page-nav{ 
+    text-decoration: none;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-list{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-list-item-link a{
+    text-decoration: none;
+    color: #2E2F42;
+    padding: 16px 8px 16px 8px;
+}
+.nav-list-item-link a:hover,
+.nav-list-item-link a:focus {
+    color: #404BBF;
+}
+.contacts{ 
+    color: #434455;
+    text-decoration: none;
+    gap: 12px;
+}
+
+.contacts-list{   
+    text-decoration: none; 
+    list-style: none;
+}
+
+.contacts-list-item a{ 
+    color: #434455;
+    padding: 16px 8px 16px 8px; 
+    text-decoration: none; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.contacts-list-item a:hover,
+.contacts-list-item a:focus {
+    color: #404BBF;
+}
+
+/* #endregion  header */
+
+/* #region hero */
+.banner-hero{
+    background-color: #2E2F42;
+}
+.main-title{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 496px;
+    height: 120px;
+}
+.button-hero{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    text-align: center;
+    display: inline-block;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404BBF;
+}
+
+.features-hero{
+    color: #2E2F42;
+}
+.features-list{
+    list-style: none;
+    text-decoration: none;
+    gap: 40px;
+}
+.features-list-item{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.features-list-item-title{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    color: #2E2F42;
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-list {
+    list-style: none;
+    gap: 32px;
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+    height: 380px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+.team-list-item p {
+    text-align: center;
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-list-item-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.portfolio{
+    text-decoration: none;
+    list-style: none;
+
+}
+.portfolio-title{
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.portfolio-list{
+    list-style: none;
+}
+.portfolio-list-item{
+}
+.portfolio-list-item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.portfolio-list-item-text{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* #endregion hero */
+
+/* #region footer */
+.footer{
+    background-color: #2E2F42;
+    padding: 32px 0 32px 0;
+}
+.footer-logo{
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.accent {
+    color: #4D5AE5;
+}
+.footer-text{
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* #endregion footer */
